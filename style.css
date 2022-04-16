@@ -1,0 +1,167 @@
+body{
+    background-color: rgb(255, 255, 255);
+}
+
+#perfil{
+    border-radius: 50%;
+    border-style:none;
+    border-color: rgb(151, 65, 14);
+}
+#header{
+    display: flex;
+    justify-content: 50px;
+    width: 70%;
+    margin-left: 15%;
+    align-items: center;
+    
+
+}
+    
+
+#cantado{
+    color: black;
+    
+}
+
+#cantador{
+    color: rgb(148, 112, 34);
+}
+
+
+#tittle{
+
+    left: 50%;
+    margin-left: -200px; /* A metade de sua largura. */
+    position: absolute;
+    width: 400px; /* O valor que você desejar. */
+    text-align: center;
+
+
+}
+
+
+
+h1{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 60px;   
+    height: 10px;
+    
+}
+
+h2{
+    font-family: 'Courier New', Courier, monospace;
+    line-height: 40px;
+    color: black;
+}
+
+
+
+#foto{
+    width: 50%;
+}
+
+main{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    
+}
+
+#box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 120px;
+    height: 100px;
+    background-color: rgb(228, 228, 228);
+    text-align: center;    
+    
+    border-bottom-style: solid;
+    border-right-style: solid;
+    border-width: 1px;
+    border-color: rgb(243, 243, 243);
+    color: black;
+    
+    
+
+
+}
+
+a{
+    text-decoration: none;
+}
+
+#box2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 120px;
+    height: 100px;
+    background-color: rgb(228, 228, 228);
+    text-align: center;
+    color: black;
+
+    
+    
+}
+
+#box3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 120px;
+    height: 100px;
+    background-color: rgb(228, 228, 228);
+    text-align: center;
+    color: black;
+    border-right-style: solid;
+    border-width: 1px;
+    border-color: rgb(243, 243, 243);
+    color: black;
+    
+    
+}
+
+#box4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 120px;
+    height: 100px;
+    background-color: rgb(228, 228, 228);
+    text-align: center;
+    color: black;
+    
+    
+}
+
+
+#bloco{
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+#bloco2{
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+footer{
+    background-color:white;
+    border-top-width: 3px;
+    border-top-style: solid;
+    border-top-color: black;
+    margin-top: 50px;
+}
+#links{
+    display: flex;
+    justify-content: space-between;
+    
+
+}
