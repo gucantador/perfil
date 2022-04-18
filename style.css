@@ -1,12 +1,27 @@
-body{
+html, body{
     background-color: rgb(255, 255, 255);
+    height: 100%; 
+    
+    
+    
+    position: relative;
+    
+
+
+    
+
 }
+#wrapper{
+    min-height: 100%;
+}
+
 
 #perfil{
     border-radius: 50%;
     border-style:none;
     border-color: rgb(151, 65, 14);
 }
+
 #header{
     display: flex;
     justify-content: 50px;
@@ -17,6 +32,7 @@ body{
 
 }
     
+
 
 #cantado{
     color: black;
@@ -64,14 +80,16 @@ main{
     font-family: 'Courier New', Courier, monospace;
     font-weight: bold;
     
+    margin-top: 50px;
+
 }
 
 #box{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 120px;
-    height: 100px;
+    width: 180px;
+    height: 140px;
     background-color: rgb(228, 228, 228);
     text-align: center;    
     
@@ -90,12 +108,14 @@ a{
     text-decoration: none;
 }
 
+
+
 #box2{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 120px;
-    height: 100px;
+    width: 180px;
+    height: 140px;
     background-color: rgb(228, 228, 228);
     text-align: center;
     color: black;
@@ -108,8 +128,8 @@ a{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 120px;
-    height: 100px;
+    width: 180px;
+    height: 140px;
     background-color: rgb(228, 228, 228);
     text-align: center;
     color: black;
@@ -125,8 +145,8 @@ a{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 120px;
-    height: 100px;
+    width: 180px;
+    height: 140px;
     background-color: rgb(228, 228, 228);
     text-align: center;
     color: black;
@@ -153,15 +173,62 @@ a{
 
 
 footer{
+    width: 100%;
+
+
+    position: fixed;
+    bottom: 0; 
+
+
     background-color:white;
     border-top-width: 3px;
     border-top-style: solid;
-    border-top-color: black;
-    margin-top: 50px;
+    border-top-color: black;    
+    
 }
+
+
 #links{
     display: flex;
     justify-content: space-between;
     
+    
 
+}
+
+#blank{
+    height:100px;
+}
+
+#habilidades{
+   text-align: center;
+   font-size: 17px;
+
+}
+
+#habilidade_1{
+    
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 145px;
+    background-color: rgb(228, 228, 228);
+    text-align: center;  
+    
+}
+
+#habilidade_2{
+    
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 145px;
+    background-color: rgb(228, 228, 228);
+    text-align: center;  
+    
+}
+
+#bloco_habilidades{
+    display: flex;
+    justify-content: center;
 }
